@@ -97,7 +97,7 @@ python train_vae.py \
 ### Step 4: Node Classification
 
 ```
-python transductive_train.py \
+python ./node_classification/transductive_val.py \
   --dataset cora \
   --real_embeds_path ./embeds/all_embs.npy \
   --generated_embeds_path your-generated-embeds-path \
